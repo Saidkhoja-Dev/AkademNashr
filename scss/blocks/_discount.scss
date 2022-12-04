@@ -1,0 +1,57 @@
+.discount {
+  padding: 120px 0 160px 0;
+
+  &__container {
+    position: relative;
+    padding: 64px;
+    background-color: #252420;
+    border-radius: 12px;
+  }
+
+  &__heading {
+    max-width: 373px;
+    width: 100%;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    max-width: 440px;
+    width: 100%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin-bottom: 12px;
+  }
+
+  &__desc {
+    max-width: 440px;
+    width: 100%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+
+  &__highlights {
+    background: none repeat scroll 0;
+    color: #ff7500;
+  }
+
+  &__btn {
+    @include all-btn-style;
+  }
+
+  &__right {
+    width: 440px;
+    height: 440px;
+    position: absolute;
+    top: -84px;
+    right: 64px;
+  }
+}
